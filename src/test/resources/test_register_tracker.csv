@@ -1,0 +1,5 @@
+do_not_send_tracking|tracker_registered|expected_registered_value|test_name
+true|false|false|Don't send tracking, tracker not registered
+true|true|false|Don't send tracking, tracker is registered
+false|false|true|Send tracking, tracker not registered
+false|true|true|Send tracking, tracker is registered
